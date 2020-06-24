@@ -11,7 +11,7 @@ Files shi_tomasi_detector_2d.py and shi_tomasi_detector_3d.py are executed with 
 
 The result of scripts are bar plots with measures of F described in one of arcticles in bibliography and false-positive and false-negative and true-positive measures.
 
-Bibliography
+Bibliography  
 [1] https://docs.opencv.org/3.4/d8/dd8/tutorial_good_features_to_track.html  
 [2] https://docs.opencv.org/3.4/d4/d7d/tutorial_harris_detector.html  
 [3] Q. Zhu, M. D. Phung, Q. P. Ha, Crack Detection Using Enhanced Hierarchical Convolutional Neural Networks  
