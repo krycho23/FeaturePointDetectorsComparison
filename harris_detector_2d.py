@@ -88,7 +88,6 @@ print(np.histogram(final))
 plt.imshow(final, cmap="gray")
 
 # false-positives
-1 == 255
 false_positives = 0
 for row in range(total_rows):
     for col in range(total_cols):
@@ -97,7 +96,6 @@ for row in range(total_rows):
 
 
 # false-negatives
-2 != 255
 false_negatives = 0
 for row in range(total_rows):
     for col in range(total_cols):
@@ -106,7 +104,6 @@ for row in range(total_rows):
 
 
 # true-positives
-2 == 255
 true_positives=0
 for row in range(total_rows):
     for col in range(total_cols):
@@ -115,7 +112,6 @@ for row in range(total_rows):
 
 
 # true-negatives
-1 != 255
 true_negatives=0
 for row in range(total_rows):
     for col in range(total_cols):
